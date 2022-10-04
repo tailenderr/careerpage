@@ -1,0 +1,28 @@
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  font: 300 11px/1.4 "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+  display: block;
+  background-color: #beb8af;
+}
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 5.8px;
+  }
+}
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 5px;
+  }
+}

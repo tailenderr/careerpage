@@ -1,0 +1,64 @@
+.container {
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+
+  form {
+    width: 50rem;
+    // border: 1px solid green;
+    position: relative;
+  }
+
+  input {
+    border: 0.3rem solid black;
+    border-radius: 3rem;
+    padding: 1.2rem 2rem;
+    background-color: transparent;
+    font-size: 2rem;
+    width: 45rem;
+    letter-spacing: 0.2rem;
+    position: relative;
+  }
+  button {
+    border: none;
+    padding: 1.5rem 1.2rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    width: 12rem;
+    position: absolute;
+    background-color: #f7c331;
+    right: 0.6rem;
+    top: 0.25rem;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    form {
+      width: 48rem;
+    }
+    input {
+      width: 44rem;
+    }
+    button {
+      padding: 1.62rem 1.2rem;
+      top: 0.28rem;
+      right: -0.3rem;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    form {
+      width: 45rem;
+    }
+    input {
+      width: 41rem;
+    }
+    button {
+      padding: 1.62rem 1.2rem;
+      top: 0.28rem;
+      right: -0.3rem;
+    }
+  }
+}
